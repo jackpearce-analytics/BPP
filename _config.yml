@@ -1,4 +1,4 @@
 title: My Port
 logo: /images/Data.jpg
 show downloads: True
-theme: jekyll-theme-Slate
+remote_theme: pages-themes/architect@v0.2.0
