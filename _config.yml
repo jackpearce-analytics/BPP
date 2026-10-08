@@ -4,6 +4,6 @@ plugins:
 - jekyll-remote-theme
 
 title: My Port
-avatar: /images/Data.jpg
+logo: /images/Data.jpg
 show downloads: True
 
