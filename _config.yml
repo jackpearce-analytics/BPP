@@ -1,9 +1,90 @@
-#Theme
-remote_theme: pages-themes/minimal@v0.2.0
+title: "Data Science Portfolio"
+tagline: "Transforming Data into Actionable Insights"
+description: >-
+  A professional data science portfolio showcasing end-to-end analytics,
+  data visualisation, business intelligence, and data-driven recommendations
+  using publicly available datasets.
+
+url: "https://jackpearce1.github.io"
+baseurl: ""
+
+github:
+  username: JackPearce1
+
+theme: jekyll-theme-chirpy
+
+lang: en-GB
+timezone: Europe/London
+
+avatar: /assets/img/profile.jpg
+
+social:
+  name: Jack Pearce
+  email: your-email@example.com
+  links:
+    - https://github.com/JackPearce1
+    - https://www.linkedin.com/in/your-linkedin-profile
+
+author:
+  name: Jack Pearce
+  twitter:
+  url: https://github.com/JackPearce1
+
+google_site_verification:
+bing_site_verification:
+
+theme_mode: dark
+
+paginate: 10
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      toc: true
+      comments: false
+      math: false
+      mermaid: true
+
+  -
+    scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+      toc: true
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-title: Jack Pearce
-logo: /images/Data.jpg
-show downloads: True
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
+kramdown:
+  syntax_highlighter: rouge
+
+analytics:
+  google:
+    id:
+
+seo:
+  type: WebSite
+  name: Data Science Portfolio
+
+footer:
+  since: 2026
