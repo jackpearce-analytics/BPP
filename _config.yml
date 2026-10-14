@@ -1,94 +1,18 @@
 title: "Data Science Portfolio"
-tagline: "Transforming Data into Actionable Insights"
-description: >-
-  A professional data science portfolio showcasing end-to-end analytics,
-  data visualisation, business intelligence, and data-driven recommendations
-  using publicly available datasets.
+description: "Professional Data Science Project Portfolio"
 
-url: "https://jackpearce1.github.io"
-baseurl: ""
-
-github:
-  username: JackPearce1
-
-remote_theme: cotes2020/jekyll-theme-chirpy
-
-lang: en-GB
-timezone: Europe/London
-
-avatar: /assets/img/profile.jpg
-
-social:
-  name: Jack Pearce
-  email: your-email@example.com
-  links:
-    - https://github.com/JackPearce1
-    - https://www.linkedin.com/in/your-linkedin-profile
-
-author:
-  name: Jack Pearce
-  twitter:
-  url: https://github.com/JackPearce1
-
-google_site_verification:
-bing_site_verification:
-
-theme_mode: dark
-
-paginate: 10
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      toc: true
-      comments: false
-      math: false
-      mermaid: true
-
-  -
-    scope:
-      path: ""
-      type: projects
-    values:
-      layout: page
-      toc: true
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+author:
+  name: "Jack Pearce"
 
-kramdown:
-  syntax_highlighter: rouge
+github:
+  username: jackpearce-analytics
 
-analytics:
-  google:
-    id:
-
-seo:
-  type: WebSite
-  name: Data Science Portfolio
-
-footer:
-  since: 2026
+minimal_mistakes_skin: "dark"
