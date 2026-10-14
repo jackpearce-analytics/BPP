@@ -11,7 +11,15 @@ baseurl: ""
 github:
   username: JackPearce1
 
-theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem "jekyll-include-cache"
+end
 
 lang: en-GB
 timezone: Europe/London
@@ -66,6 +74,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - README.md
